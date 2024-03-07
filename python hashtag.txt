@@ -1,0 +1,65 @@
+Para automatizar um projeto, devemos simplificar, explicando de uma forma humana como será feito todo o 
+processo;
+
+# Passo 1: Entrar no sistema da empresa ( https://dlp.hashtagtreinamentos.com/python/intensivao/login );
+# Passo 2: Fazer login;
+# Passo 3: Importar a base de dados;
+# Passo 4: Cadastrar 1 produto;
+# Passo 5: Repetir o processo de cadastro até acabar a base de dados;
+
+pyautogui <-- biblioteca que permite automatizar qualquer tarefa com mouse, teclado e a tela do pc (pip install pyautogui)
+
+import pyautogui <-- pode usar pra fazer a tarefa que quiser (automatizar qqr coisa)
+
+pyautogui.click <-- clicar em algum lugar da tela
+pyautogui.write <-- escrever um texto 
+pyautogui.press <-- pressionar uma tecla do teclado
+pyautogui.hotkey <-- combinação de tecla
+
+
+""" NO GOOGLE SE DIGITAR "PYAUTOGUI PYTHON" VAI APARECE TODOS OS COMANDOS DELE """
+
+pyautogui.pause = 1 <-- pausa entre cada comando do pyautogui 
+
+time.sleep() <-- pausa entre um comando específico
+
+
+
+import time
+time.sleep (5) <-- tempo determinado para colocar o cursor do mouse
+print (pyautogui.position()) <----- mostra  a posição do mouse em 5 segundos (tempo determinado)
+
+■click
+■leftClick
+■rightClick
+■doubleClick
+■middleClick
+■tripleClick <-- comandos do clique do mouse no pyautogui
+
+
+
+""""""""""""a ferramenta mais usada no python pra trabalhar com base de dados é o pandas"""""""""
+
+import pandas <-- consegue ler toda a base de dados e armazenar as informações da base de dados dentro de uma variável.
+
+
+pandas.read_"tipo do arquivo" <-- para que consiga ler o arquivo
+
+for linha in tabela.index: <---- para cada linha da minha tabela
+
+
+pyautogui.scroll() <---- numero de scroll q teu mouse vai rolar (numero negativo, o scroll vai pra baixo)
+
+pegar info de codigo da tabela: tabela.loc[linha, coluna] <- entre colchetes (criar uma variavel chamada codigo).
+
+str = string em python
+
+pandas.isna <- verifica se está vazia a informação
+
+NaN = Not a Number
+
+
+
+
+
+
